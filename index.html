@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Tailwind CSS Tabs</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body>
+
+    <div class="container mx-auto min-h-screen grid place-items-center px-4">
+
+        <div class="border w-full max-w-xl">
+
+            <!-- Header -->
+            <div class="header flex">
+
+                <div class="w-full text-center text-xl border-r
+                            font-bold cursor-pointer py-2 bg-gray-400">
+                    Dhaka
+                </div>
+
+                <div class="w-full text-center text-xl border-r border-b
+                            hover:bg-gray-400 cursor-pointer py-2">
+                    Rajshahi
+                </div>
+
+                <div class="w-full text-center text-xl border-r border-b
+                            hover:bg-gray-400 cursor-pointer py-2">
+                    Khulna
+                </div>
+
+                <div class="w-full text-center text-xl border-b
+                            hover:bg-gray-400 cursor-pointer py-2">
+                    Chittagong
+                </div>
+
+            </div>
+
+            <!-- Details -->
+            <div class="details">
+
+                <div class="p-4 bg-gray-300 italic text-gray-600
+                            transition-opacity opacity-100 duration-500">
+                    Dhaka Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.
+                </div>
+
+                <div class="p-4 bg-gray-300 italic text-gray-600
+                            hidden opacity-0 transition-opacity duration-500">
+                    Rajshahi Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.
+                </div>
+
+                <div class="p-4 bg-gray-300 italic text-gray-600
+                            hidden opacity-0 transition-opacity duration-500">
+                    Khulna Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.
+                </div>
+
+                <div class="p-4 bg-gray-300 italic text-gray-600
+                            hidden opacity-0 transition-opacity duration-500">
+                    Chittagong Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
